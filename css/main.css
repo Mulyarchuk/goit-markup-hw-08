@@ -202,7 +202,6 @@ section {
 @media screen and (max-width: 460px) {
   .modal {
     width: 300px;
-    height: 609px;
   }
 }
 .modal-form {
@@ -334,6 +333,11 @@ section {
   background-color: var(--background-btn-color);
 }
 
+@media screen and (max-width: 460px) {
+  .modal-form {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 1199px) {
   .checkbox {
     font-size: 12px;
@@ -389,7 +393,7 @@ section {
     color: var(--accent-color);
   }
   .mobile-menu-contact__link-phone {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.02em;
@@ -403,7 +407,7 @@ section {
     color: var(--secondery-text-color);
   }
   .mobile-menu__social-link {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.22;
     letter-spacing: 0.02em;

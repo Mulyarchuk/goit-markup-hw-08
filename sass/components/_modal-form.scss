@@ -125,6 +125,11 @@ text-align: center;
     background-color: var(--background-btn-color);
 }
 }
+@media screen and (max-width: 460px) {
+    .modal-form {
+        height: 100%;
+    }
+}
 @media screen and (max-width: 1199px) {
     .checkbox {
         font-size: 12px;
